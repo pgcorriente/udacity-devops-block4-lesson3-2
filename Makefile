@@ -2,7 +2,6 @@ setup:
 	python3 -m venv ~/.udacity-devops-block4-lesson3-2
 
 install:
-	source ~/.udacity-devops-block4-lesson3-2/bin/activate
 	pip install --upgrade pip && pip install -r requirements.txt
 
 test:
